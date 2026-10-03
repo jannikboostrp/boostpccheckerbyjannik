@@ -1,0 +1,24 @@
+{
+  "_comment": "Boost PC-Checker CLIENT config. Copy to Config.json. The client holds NO bot token - it posts only via webhooks (low blast radius; regenerate any that leak). Create webhooks in the Discord channel settings for channels 2, 3 and 6.",
+
+  "ServerName": "Boost Roleplay",
+  "DiscordBotToken": "",
+
+  "DiscordWebhook_CheckData": "https://discord.com/api/webhooks/XXXX/CH6",
+  "DiscordWebhook_CheckedUsers": "https://discord.com/api/webhooks/XXXX/CH2",
+  "DiscordWebhook_DossierArchive": "https://discord.com/api/webhooks/XXXX/CH3",
+
+  "DiscordWebhook_Dashboard": "",
+  "DiscordWebhook_Searcher": "",
+  "DiscordWebhook_AuthCode": "",
+  "DiscordWebhook_CheckApproval": "",
+
+  "DiscordChannel_CheckData": "1555907406158889091",
+
+  "GoogleDocsWebhookUrl": "https://script.google.com/macros/s/XXXX/exec",
+  "GoogleSheetViewUrl": "https://docs.google.com/spreadsheets/d/1aqSX9V90o_nUC0sdUTLh4YLwKAjYImflavLgoi40ItA/edit?gid=0#gid=0",
+
+  "AutoSendToDiscord": true,
+  "DiscordPingStaffOnCritical": true,
+  "DiscordStaffMention": "@here"
+}
